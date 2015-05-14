@@ -3,7 +3,14 @@ filetype off                  " required
 
 " Plugins
 
+" ctrl-p
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+let g:ctrlp_working_path_mode='ra'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_max_depth=20
+let g:ctrlp_by_filename=0
+let g:ctrlp_max_files=0
 
 " Settings
 
