@@ -15,6 +15,7 @@ let g:ctrlp_max_files=0
 " Settings
 
 syntax on
+au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " highlight trailing whitespace in red
