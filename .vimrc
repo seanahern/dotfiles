@@ -1,5 +1,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
+set relativenumber                    " show line numbers
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 " Plugins
 
@@ -16,7 +18,7 @@ let g:ctrlp_max_files=0
 
 syntax on
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 " highlight trailing whitespace in red
 
