@@ -1,12 +1,12 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set relativenumber                    " show line numbers
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+" highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+syntax enable
+set background=dark
+colorscheme solarized
 
 " Plugins
-
-" ctrl-p
-set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 let g:ctrlp_working_path_mode='ra'
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
@@ -16,7 +16,6 @@ let g:ctrlp_max_files=0
 
 " Settings
 
-syntax on
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
