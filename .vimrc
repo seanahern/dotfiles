@@ -7,7 +7,7 @@ set background=dark
 colorscheme solarized
 
 " Plugins
-
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_working_path_mode='ra'
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_max_depth=20
