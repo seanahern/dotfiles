@@ -8,11 +8,12 @@ colorscheme solarized
 
 " Plugins
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-let g:ctrlp_working_path_mode='ra'
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
-let g:ctrlp_max_depth=20
-let g:ctrlp_by_filename=0
+let g:ctrlp_use_caching=0
+let g:ctrlp_custom_ignore = '\v[\/](transpiled)|dist|tmp|bower_components|node_modules|(\.(swp|git|bak|pyc|DS_Store))$'
+let g:ctrlp_working_path_mode = 0
 let g:ctrlp_max_files=0
+let g:ctrlp_max_height = 18
+let g:ctrlp_open_multiple_files = '1vjr'
 
 " Settings
 
