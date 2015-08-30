@@ -1,13 +1,14 @@
+execute pathogen#infect()
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
-set relativenumber                    " show line numbers
-" highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-syntax enable
-set background=dark
-colorscheme solarized
+set relativenumber            " show line numbers
+
+syntax enable                 " show syntax, when available
+set background=dark           " dark theme
+colorscheme solarized         " theme
 
 " Plugins
-set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_map ='<c-p>'
 let g:ctrlp_cmd ='CtrlP'
 let g:ctrlp_use_caching=0
