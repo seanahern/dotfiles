@@ -1,0 +1,21 @@
+[user]
+  name = sean ahern
+  email = seanpahern@gmail.com
+
+[color]
+  ui = true
+  branch = true
+  diff = true
+  interactive = true
+  status = true
+
+[color "status"]
+  added = green
+  changed = red bold
+  untracked = magenta bold
+
+[color "branch"]
+  remote = yellow
+
+[push]
+	default = matching
