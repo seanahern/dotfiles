@@ -7,6 +7,7 @@ set relativenumber            " show line numbers
 syntax enable                 " show syntax, when available
 set background=dark           " dark theme
 colorscheme solarized         " theme
+set visualbell                " disable error bloops
 
 " ---------------
 " Settings
