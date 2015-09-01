@@ -6,11 +6,13 @@
 sudo rm -rf ~/.tmux.conf > /dev/null 2>&1
 sudo rm -rf ~/.vim > /dev/null 2>&1
 sudo rm -rf ~/.vimrc > /dev/null 2>&1
+sudo rm -rf ~/.gitconfig > /dev/null 2>&1
 
 # Symlink the new config files. Assumes files are saved in ~/dotfiles
 ln -s ~/dotfiles/vim ~/.vim
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 
 # To double-check symlink, use: ls -lad [filename]
 
