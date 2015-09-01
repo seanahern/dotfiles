@@ -19,6 +19,7 @@ let g:ctrlp_custom_ignore = '\v[\/](transpiled)|dist|tmp|bower_components|node_m
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_max_files=0
 let g:ctrlp_max_height = 18
+let g:ctrlp_show_hidden = 1
 let g:ctrlp_open_multiple_files = '1vjr'
 
 " NERD Tree
