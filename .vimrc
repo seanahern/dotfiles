@@ -8,10 +8,30 @@ syntax enable                 " show syntax, when available
 set background=dark           " dark theme
 colorscheme solarized         " theme
 
+" ---------------
+" Settings
+" ---------------
+
+" 2 space tabs
+set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
+
+" Import Handlebars syntax
+au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
+
+" Highligh whitespace, and use :Kws command to kill white space
+highlight ExtraWhitespace ctermbg=red ctermfg=red guibg=#ff0000 guifg=#ff0000
+match ExtraWhitespace /\s\+$/
+au BufWinEnter * match ExtraWhitespace /\s\+$/
+au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+au InsertLeave * match ExtraWhitespace /\s\+$/
+au BufWinLeave * call clearmatches()
+command! Kws %s/\s\+$// | let @/ = ""
+
+" -------
 " Plugins
+" -------
 
-"CtrlP
-
+"" CtrlP
 let g:ctrlp_map ='<c-p>'
 let g:ctrlp_cmd ='CtrlP'
 let g:ctrlp_use_caching=0
@@ -22,26 +42,7 @@ let g:ctrlp_max_height = 18
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_open_multiple_files = '1vjr'
 
-" NERD Tree
-
+"" NERD Tree
 map <C-n> :NERDTreeToggle<CR>
-
-" Settings
-
-au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
-set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
-
-" highlight trailing whitespace in red
-
-highlight ExtraWhitespace ctermbg=red ctermfg=red guibg=#ff0000 guifg=#ff0000
-match ExtraWhitespace /\s\+$/
-au BufWinEnter * match ExtraWhitespace /\s\+$/
-au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-au InsertLeave * match ExtraWhitespace /\s\+$/
-au BufWinLeave * call clearmatches()
-
-" Mapped keys
-
-" Kill white space
-command! Kws %s/\s\+$// | let @/ = ""
+let NERDTreeShowHidden=1
 
