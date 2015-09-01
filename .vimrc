@@ -7,11 +7,13 @@ set relativenumber            " show line numbers
 syntax enable                 " show syntax, when available
 set background=dark           " dark theme
 colorscheme solarized         " theme
+set laststatus=2
 set visualbell                " disable error bloops
 set ruler                     " show cursor position
 set rulerformat=%55(%{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ %5l,%-6(%c%V%)\ %P%) " show date / time in status bar
 set title                     " show title of file in window
 set gdefault                  " default find & replace to g
+set noshowmode
 
 " ---------------
 " Settings
