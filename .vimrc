@@ -8,7 +8,7 @@ syntax enable                 " show syntax, when available
 set background=dark           " dark theme
 colorscheme solarized         " theme
 set laststatus=2
-set visualbell                " disable error bloops
+set visualbell                " visual bell instead of audible
 set ruler                     " show cursor position
 set rulerformat=%55(%{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ %5l,%-6(%c%V%)\ %P%) " show date / time in status bar
 set title                     " show title of file in window
@@ -51,4 +51,3 @@ let g:ctrlp_open_multiple_files = '1vjr'
 "" NERD Tree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
-
