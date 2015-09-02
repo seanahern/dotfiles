@@ -15,7 +15,6 @@ ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 
 # Setup bash prompt:
-echo 'export PATH=/usr/local/bin:$PATH' >>~/.bash_profile
 echo 'PS1="\h:\u [ \w ] 🍕  "' >> ~/.bash_profile
 
 # To double-check symlink, use: ls -lad [filename]
