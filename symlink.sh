@@ -14,6 +14,10 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 
+# Setup bash prompt:
+echo 'export PATH=/usr/local/bin:$PATH' >>~/.bash_profile
+echo 'PS1="\h:\u [ \w ] 🍕  "' >> ~/.bash_profile
+
 # To double-check symlink, use: ls -lad [filename]
 
 echo -n "Would you like to configure your git name and email? (y/n) => "; read answer
