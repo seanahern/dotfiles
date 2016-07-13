@@ -14,7 +14,7 @@
   remote = yellow
 
 [push]
-	default = matching
+	default = current
 [core]
 	editor = /usr/bin/vim
 	excludefile = ~/.gitignore

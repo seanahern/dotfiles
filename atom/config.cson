@@ -1,0 +1,19 @@
+"*":
+  core:
+    allowPendingPaneItems: false
+    audioBeep: false
+    customFileTypes:
+      "source.html": [
+        "isml"
+      ]
+      "source.js": [
+        "ds"
+      ]
+    projectHome: "/Users/sahern/git"
+  editor:
+    fontSize: 19
+    showInvisibles: true
+  "exception-reporting":
+    userId: "9553ed2b-d38e-fc43-f0fd-001cf655168d"
+  welcome:
+    showOnStartup: false
