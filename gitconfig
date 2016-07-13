@@ -1,13 +1,9 @@
 [user]
-  name = sean ahern
+  name = Sean Ahern
   email = seanpahern@gmail.com
 
 [color]
   ui = true
-  branch = true
-  diff = true
-  interactive = true
-  status = true
 
 [color "status"]
   added = green
@@ -21,4 +17,12 @@
 	default = matching
 [core]
 	editor = /usr/bin/vim
-	excludefile = /Users/sahern/.gitignore_global
+	excludefile = ~/.gitignore
+
+[alias]
+  st = status
+  co = commit
+  br = branch
+  ch = checkout
+  d = diff
+  p = push
