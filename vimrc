@@ -5,8 +5,8 @@ filetype off                  " required
 set relativenumber            " show line numbers
 
 syntax enable                 " show syntax, when available
-set background=dark          " dark theme
-colorscheme solarized         " theme
+colorscheme onedark         " theme
+let g:onedark_termcolors=256
 set visualbell                " visual bell instead of audible
 set title                     " show title of file in window
 set gdefault                  " default find & replace to g
@@ -19,7 +19,7 @@ set gdefault                  " default find & replace to g
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 " Import Handlebars syntax
-au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
+au BufRead,BufNewFile *.handlebars,*.hbs,*.isml set ft=html syntax=handlebars
 
 " Highligh whitespace, and use :Kws command to kill white space
 highlight ExtraWhitespace ctermbg=red ctermfg=red guibg=#ff0000 guifg=#ff0000
