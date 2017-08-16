@@ -10,6 +10,7 @@ rm -rf ~/.vimrc > /dev/null 2>&1
 rm -rf ~/.gitconfig > /dev/null 2>&1
 rm -rf ~/.gitignore > /dev/null 2>&1
 rm -rf ~/.bash_profile > /dev/null 2>&1
+rm -rf ~/.atom/config.cson > /dev/null 2>&1
 
 # Symlink the new config files. Assumes files are saved in ~/dotfiles
 ln -s ~/dotfiles/vim ~/.vim
@@ -18,6 +19,7 @@ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/gitignore ~/.gitignore
 ln -s ~/dotfiles/bash_profile ~/.bash_profile
+ln -s ~/dotfiles/atom/config.cson ~/.atom/config.cson
 
 ##
 # Homebrew
