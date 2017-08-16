@@ -2,11 +2,12 @@ execute pathogen#infect()
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
-set relativenumber            " show line numbers
+" set relativenumber          " show line numbers
 
-syntax enable                 " show syntax, when available
-colorscheme onedark         " theme
+syntax on                     " show syntax, when available
+colorscheme dracula           " theme
 let g:onedark_termcolors=256
+set background=light
 set visualbell                " visual bell instead of audible
 set title                     " show title of file in window
 set gdefault                  " default find & replace to g
@@ -34,6 +35,9 @@ command! Kws %s/\s\+$// | let @/ = ""
 " Plugins
 " -------
 
+" vim-airline
+set laststatus=2
+
 "" CtrlP
 let g:ctrlp_map ='<c-p>'
 let g:ctrlp_cmd ='CtrlP'
@@ -44,6 +48,7 @@ let g:ctrlp_max_files=0
 let g:ctrlp_max_height = 18
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_open_multiple_files = '1vjr'
+let g:ctrlp_dont_split = 'nerdtree'
 
 "" NERD Tree
 map <C-n> :NERDTreeToggle<CR>
