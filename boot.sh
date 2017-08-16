@@ -1,4 +1,5 @@
 ##
+
 # Symlink setup file. Based on https://github.com/toranb/dotfiles
 ##
 
@@ -22,16 +23,19 @@ ln -s ~/dotfiles/bash_profile ~/.bash_profile
 # Homebrew
 ##
 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# TODO: Check if brew exists before running this
+# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install hub
+# brew install hub
 
-echo "Installing apps..."
+# TODO: `brew cleanup` here
 
-brew cask install atom
-brew cask install ember
-brew cask install sketch
-brew cask install google-chrome
+# echo "Installing apps..."
+
+# brew cask install atom
+# brew cask install ember
+#brew cask install sketch
+# brew cask install google-chrome
 
 ##
 # Load atom config here
