@@ -27,10 +27,3 @@
   ch = checkout
   d = diff
   p = push
-[diff]
-	tool = bc3
-[difftool "bc3"]
-	trustExitCode = true
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f

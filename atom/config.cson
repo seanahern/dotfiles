@@ -10,10 +10,16 @@
         "ds"
       ]
     projectHome: "/Users/sahern/git"
+    telemetryConsent: "no"
   editor:
-    fontSize: 19
+    autoIndent: false
+    autoIndentOnPaste: false
+    invisibles: {}
     showInvisibles: true
   "exception-reporting":
     userId: "9553ed2b-d38e-fc43-f0fd-001cf655168d"
+  "one-dark-ui": {}
   welcome:
     showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false
