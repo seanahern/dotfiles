@@ -10,7 +10,7 @@ let g:onedark_termcolors=256
 set visualbell                " visual bell instead of audible
 set title                     " show title of file in window
 set gdefault                  " default find & replace to g
-
+ 
 " ---------------
 " Settings
 " ---------------
@@ -39,6 +39,7 @@ let g:ctrlp_map ='<c-p>'
 let g:ctrlp_cmd ='CtrlP'
 let g:ctrlp_use_caching=0
 let g:ctrlp_custom_ignore = '\v[\/](transpiled)|dist|tmp|bower_components|node_modules|(\.(swp|git|bak|pyc|DS_Store))$'
+let g:ctrlp_dont_split = 'nerdtree'
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_max_files=0
 let g:ctrlp_max_height = 18
@@ -48,3 +49,4 @@ let g:ctrlp_open_multiple_files = '1vjr'
 "" NERD Tree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1

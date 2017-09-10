@@ -18,6 +18,7 @@
 [core]
 	editor = /usr/bin/vim
 	excludefile = ~/.gitignore
+	excludesfile = /Users/Sean/.gitignore
 
 [alias]
   st = status
@@ -30,3 +31,6 @@
 	tool = bc3
 [difftool "bc3"]
 	trustExitCode = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
