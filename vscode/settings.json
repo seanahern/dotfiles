@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Source Code Pro,Menlo, Monaco, 'Courier New', monospace",
+    "editor.matchBrackets": false,
+    "editor.renderControlCharacters": true,  
+    "extension.prophet.upload.enabled": true,
+    "gitlens.keymap": "alternate",
+    "workbench.colorTheme": "One Dark Pro"
+}
