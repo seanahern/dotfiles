@@ -5,5 +5,5 @@
 ```shell
 cd ~/
 git clone https://github.com/seanahern/dotfiles.git
-sh load.sh
+sh boot.sh
 ```
