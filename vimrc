@@ -17,7 +17,7 @@ set gdefault                  " default find & replace to g
 " ---------------
 
 " 2 space tabs
-set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
+set tabstop=2 softtabstop=0 shiftwidth=2 smarttab
 
 " Import Handlebars syntax
 au BufRead,BufNewFile *.handlebars,*.hbs,*.isml set ft=html syntax=handlebars

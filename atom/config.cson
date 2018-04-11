@@ -9,11 +9,15 @@
       "source.js": [
         "ds"
       ]
+    disabledPackages: [
+      "whitespace"
+    ]
     projectHome: "/Users/sahern/git"
     telemetryConsent: "no"
   editor:
     autoIndent: false
     autoIndentOnPaste: false
+    fontSize: 16
     invisibles: {}
     showInvisibles: true
   "exception-reporting":
