@@ -1,9 +1,11 @@
 execute pathogen#infect()
 
+" ---------------
+" Settings
+" ---------------
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
-" set relativenumber          " show line numbers
-
 syntax on                     " show syntax, when available
 colorscheme dracula           " theme
 let g:onedark_termcolors=256
@@ -11,13 +13,12 @@ set background=light
 set visualbell                " visual bell instead of audible
 set title                     " show title of file in window
 set gdefault                  " default find & replace to g
- 
-" ---------------
-" Settings
-" ---------------
-
-" 2 space tabs
-set tabstop=2 softtabstop=0 shiftwidth=2 smarttab
+set number
+set tabstop=2 softtabstop=0 shiftwidth=2 smarttab " 2 space tabs
+set cursorline
+set clipboard=unnamed
+set hlsearch
+set showmatch
 
 " Import Handlebars syntax
 au BufRead,BufNewFile *.handlebars,*.hbs,*.isml set ft=html syntax=handlebars
@@ -37,8 +38,14 @@ command! Kws %s/\s\+$// | let @/ = ""
 
 " vim-airline
 set laststatus=2
+let g:airline_section_warning = ''
+let g:airline_section_y = ''
+let g:airline_section_x = ''
+" switch to left / right split (mostly for Nerd Tree)
+map <C-h> <C-W>h
+map <C-l> <C-W>l
 
-"" CtrlP
+" CtrlP
 let g:ctrlp_map ='<c-p>'
 let g:ctrlp_cmd ='CtrlP'
 let g:ctrlp_use_caching=0
@@ -51,7 +58,7 @@ let g:ctrlp_show_hidden = 1
 let g:ctrlp_open_multiple_files = '1vjr'
 let g:ctrlp_dont_split = 'nerdtree'
 
-"" NERD Tree
+" NERD Tree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1

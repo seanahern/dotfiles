@@ -20,5 +20,6 @@
     "gitlens.keymap": "alternate",
     "workbench.colorTheme": "One Dark Pro",
     "terminal.integrated.fontSize": 16,
-    "editor.matchBrackets": false
+    "editor.matchBrackets": false,
+    "editor.renderWhitespace": "all"
 }
