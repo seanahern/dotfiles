@@ -7,7 +7,7 @@ execute pathogen#infect()
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on                     " show syntax, when available
-colorscheme dracula           " theme
+colorscheme onedark           " theme
 let g:onedark_termcolors=256
 set background=light
 set visualbell                " visual bell instead of audible
@@ -38,6 +38,7 @@ command! Kws %s/\s\+$// | let @/ = ""
 
 " vim-airline
 set laststatus=2
+let g:airline_theme='onedark'
 let g:airline_section_warning = ''
 let g:airline_section_y = ''
 let g:airline_section_x = ''
