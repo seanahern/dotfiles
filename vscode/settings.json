@@ -1,12 +1,13 @@
 {
     "window.zoomLevel": 0,
     "editor.fontSize": 15,
-    "editor.fontFamily": "Source Code Pro, monospace",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "typescript.check.npmIsInstalled": false,
     "editor.tabSize": 4,
     "editor.renderControlCharacters": true,  
     "editor.insertSpaces": false,
-    "extension.prophet.upload.enabled": true,
+    "extension.prophet.upload.enabled": false,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -18,8 +19,11 @@
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.keymap": "alternate",
-    "workbench.colorTheme": "One Dark Pro",
     "terminal.integrated.fontSize": 16,
     "editor.matchBrackets": false,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Material Theme",
+    "materialTheme.autoApplyIcons": false,
+    "editor.hover.enabled": true,
+    "editor.hover.delay": 2000
 }
