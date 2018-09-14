@@ -27,3 +27,8 @@
   ch = checkout
   d = diff
   p = push
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[credential]
+	helper = osxkeychain
