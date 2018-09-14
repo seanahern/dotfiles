@@ -22,9 +22,12 @@
     "terminal.integrated.fontSize": 16,
     "editor.matchBrackets": false,
     "editor.renderWhitespace": "all",
+<<<<<<< HEAD
     "gitlens.historyExplorer.enabled": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.enabled": false,
+=======
+>>>>>>> 05e47590f030e8b7571d5cc488477e73a4f9a9c8
     "workbench.colorTheme": "Material Theme",
     "materialTheme.autoApplyIcons": false,
     "editor.hover.enabled": true,
