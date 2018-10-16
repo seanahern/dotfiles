@@ -1,7 +1,7 @@
 {
     "window.zoomLevel": 0,
     "editor.fontSize": 15,
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Source Code Pro",
     "editor.fontLigatures": true,
     "typescript.check.npmIsInstalled": false,
     "editor.tabSize": 4,
@@ -21,6 +21,9 @@
     "terminal.integrated.fontSize": 16,
     "editor.matchBrackets": false,
     "editor.renderWhitespace": "all",
+    "gitlens.historyExplorer.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.minimap.enabled": false,
     "workbench.colorTheme": "Material Theme",
     "materialTheme.autoApplyIcons": false,
     "editor.hover.enabled": true,
