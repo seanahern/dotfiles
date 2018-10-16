@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 " ---------------
 " Settings
 " ---------------
@@ -63,3 +61,6 @@ let g:ctrlp_dont_split = 'nerdtree'
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
+
+execute pathogen#infect()
+call pathogen#helptags()

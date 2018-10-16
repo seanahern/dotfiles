@@ -1,5 +1,4 @@
 PS1="\n\[$(tput setaf 9)⚡️  \]\w\[$(tput setaf 7)\]\n\n› "
-source /Users/sahern/.rvm/scripts/rvm
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

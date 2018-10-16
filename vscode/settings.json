@@ -7,7 +7,6 @@
     "editor.tabSize": 4,
     "editor.renderControlCharacters": true,  
     "editor.insertSpaces": false,
-    "extension.prophet.upload.enabled": false,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -25,5 +24,20 @@
     "workbench.colorTheme": "Material Theme",
     "materialTheme.autoApplyIcons": false,
     "editor.hover.enabled": true,
-    "editor.hover.delay": 2000
+    "editor.hover.delay": 2000,
+    "workbench.colorCustomizations": {
+        "[Material Theme]": {
+            "sideBar.foreground": "#E0E0E0"
+        }
+    },
+    "extension.prophet.cartridges.view.enabled": true,
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "extension.prophet.upload.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
