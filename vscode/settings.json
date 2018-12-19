@@ -1,7 +1,7 @@
 {
     "window.zoomLevel": 0,
     "editor.fontSize": 15,
-    "editor.fontFamily": "Source Code Pro",
+    "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "typescript.check.npmIsInstalled": false,
     "editor.tabSize": 4,
@@ -24,7 +24,7 @@
     "gitlens.historyExplorer.enabled": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Dracula",
     "materialTheme.autoApplyIcons": false,
     "editor.hover.enabled": true,
     "editor.hover.delay": 2000,
@@ -34,13 +34,10 @@
         }
     },
     "extension.prophet.cartridges.view.enabled": true,
-    "github.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ],
     "extension.prophet.upload.enabled": true,
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "prettier.useTabs": true,
+    "prettier.requireConfig": true
 }
