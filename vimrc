@@ -5,7 +5,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on                     " show syntax, when available
-colorscheme onedark           " theme
+colorscheme dracula           " theme
 let g:onedark_termcolors=256
 set background=light
 set visualbell                " visual bell instead of audible
@@ -36,7 +36,7 @@ command! Kws %s/\s\+$// | let @/ = ""
 
 " vim-airline
 set laststatus=2
-" let g:airline_theme='onedark'
+" let g:airline_theme='dracula'
 let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#branch#enabled = 1
 let g:airline_left_sep = ' ♎︎ '
