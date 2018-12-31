@@ -5,7 +5,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on                     " show syntax, when available
-colorscheme onedark           " theme
+colorscheme dracula           " theme
 let g:onedark_termcolors=256
 set background=light
 set visualbell                " visual bell instead of audible
