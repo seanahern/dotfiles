@@ -65,6 +65,8 @@ let g:ctrlp_dont_split = 'nerdtree'
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
+set mouse=a
+let g:NERDTreeMouseMode=3
 
 execute pathogen#infect()
 call pathogen#helptags()
