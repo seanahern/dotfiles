@@ -12,3 +12,4 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 source ~/perl5/perlbrew/etc/bashrc
 
 alias cat='bat';
+alias gcb='git branch | grep \* $1';

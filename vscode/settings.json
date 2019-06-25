@@ -5,8 +5,7 @@
     "editor.fontLigatures": true,
     "typescript.check.npmIsInstalled": false,
     "editor.tabSize": 4,
-    "editor.renderControlCharacters": true,  
-    "editor.insertSpaces": false,
+    "editor.renderControlCharacters": true,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -21,11 +20,8 @@
     "terminal.integrated.fontSize": 16,
     "editor.matchBrackets": false,
     "editor.renderWhitespace": "all",
-    "gitlens.historyExplorer.enabled": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.enabled": false,
     "workbench.colorTheme": "Dracula",
-    "materialTheme.autoApplyIcons": false,
     "editor.hover.enabled": true,
     "editor.hover.delay": 2000,
     "workbench.colorCustomizations": {
@@ -39,5 +35,15 @@
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "prettier.useTabs": true,
-    "prettier.requireConfig": true
+    "prettier.requireConfig": true,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "isAsync": true,
+                "cmd": "npm run lint"
+            }
+        ]
+    },
+    "editor.largeFileOptimizations": false
 }
